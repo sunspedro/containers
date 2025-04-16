@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #DCEEFF;
+    align-items: center;
+}
+body{
+    background-color:#E3E8EF ;
+}
+.container-geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    font-size: 18px;
+}
+.container-cima{
+    display: flex;
+    gap: 20px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFE5B4;
+    padding: 20px;
+    height: 260px;
+    width: 400px;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-color:  #EADCF8;
+    width: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.containers-baixo{
+    display: flex;
+    gap: 20px;
+    height: 200px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-color: #DFFFE0;
+    width: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9F0FF;
+    width: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.container5{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDCE2;
+    width: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+button{
+    background-color:#FF914D ;
+    color: #fff;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.2s ease ;
+}
+button:hover{
+    background-color:#E97B3B;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
